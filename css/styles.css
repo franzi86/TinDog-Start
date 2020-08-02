@@ -9,7 +9,6 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'Montserrat-Black', sans-serif;
     font-weight: 900;
 }
 
@@ -20,6 +19,17 @@ p {
 
 /* Headings */
 
+.big-heading {
+    font-weight: 700;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+.section-heading {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
 
 /* Containers */
 
@@ -29,6 +39,15 @@ p {
 
 
 /* Sections */
+
+.colored-section {
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+.white-section {
+    background-color: white;
+}
 
 
 /* Navigation Bar */
@@ -62,14 +81,9 @@ p {
 
 /* Title Section */
 
-#title {
-    background-color: #ff4c68;
-    color: #fff;
-    text-align: left;
-}
-
 #title .container-fluid {
     padding: 3% 15% 7%;
+    text-align: left;
 }
 
 
@@ -86,8 +100,6 @@ p {
 /* Features Section */
 
 #features {
-    padding: 7% 15%;
-    background-color: white;
     position: relative;
 }
 
@@ -108,29 +120,11 @@ p {
     padding: 4.5%;
 }
 
-h1 {
-    font-size: 3.5rem;
-    line-height: 1.5;
-}
 
-h3 {
-    font-weight: 700;
-    line-height: 1.5;
-}
+/* testimonials */
 
 #testimonials {
-    text-align: center;
     background-color: #ef8172;
-    color: #fff;
-}
-
-.carousel-item {
-    padding: 7% 15%;
-}
-
-h2 {
-    font-weight: 700;
-    font-size: 1.5rem;
 }
 
 .testimonials-image {
@@ -139,9 +133,35 @@ h2 {
     margin: 20px;
 }
 
+.testimonial-text {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+
+/*  CTA Section */
+
+#cta .container-fluid {
+    padding: 10% 15% 7%;
+}
+
+
+/* pricing */
+
+.price-text {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+
+/* footer */
+
+.social-icon {
+    margin: 20px 10px;
+}
+
 #press {
     background-color: #ef8172;
-    text-align: center;
     padding: 3%;
 }
 
@@ -152,7 +172,6 @@ h2 {
 
 #pricing {
     padding: 100px;
-    text-align: center;
 }
 
 .pricing-column {
